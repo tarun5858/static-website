@@ -1,0 +1,200 @@
+/* Base table styles */
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #000;
+}
+
+thead {
+  background-color: #f2f2f2;
+}
+
+/* Different styles for the columns */
+td:nth-child(1),
+th:nth-child(1) {
+  background-color: #f9c2c2;
+  color: #000;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+td:nth-child(2),
+th:nth-child(2) {
+  background-color: #c2f9c2;
+  color: #000;
+  font-size: 16px;
+}
+
+td:nth-child(3),
+th:nth-child(3) {
+  background-color: #c2d1f9;
+  color: #000;
+  font-size: 16px;
+}
+
+th {
+  background-color: #333333;
+  color: white;
+}
+
+tfoot {
+  background-color: #f8f9fa;
+  font-weight: bold;
+}
+tr:hover td {
+  background-color: #f1f1f1;
+}
+/* Style the ordered list */
+ol {
+  font-weight: bold;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+/* Style the nested unordered list inside the ordered list */
+ol>li>ul {
+  font-weight: normal;
+  margin-left: 20px;
+  list-style-type: disc !important;
+  /* Adding a disc style to ul */
+}
+
+/* Ensure the next level of nesting for ul inside li is further indented */
+ol>li>ul>li {
+
+  list-style-type: circle !important;
+  /* You can change the style here, e.g., circle, square, etc. */
+}
+
+.blogs-desc h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 15px 0 13px 0 !important;
+  display: block;
+}
+
+.blogs-desc h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 15px 0 13px 0 !important;
+  display: block;
+}
+
+.blogs-desc h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 15px 0 13px 0 !important;
+  display: block;
+}
+
+.blogs-desc p {
+  margin: 0 0 31px 0 !important;
+}
+.rent-vs-buy span{
+  background-color: #ef9c00;
+  padding: 10px;
+  border-radius: 50px;
+  color: #ffffff;
+}
+.head-line h5 span{
+  background-color: #0086ad;
+  padding:10px 16px;
+  border-radius: 50px;
+  color: #ffffff;
+  display: block;
+}
+.dark-word span{
+  display: block;
+  font-weight: 700;
+}
+.dark-word{
+  padding: 0 0 10px 20px;
+}
+.head-line h5{
+  font-size: 15px;
+  margin-bottom: 2px;
+}
+
+    
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #000;
+}
+
+td:nth-child(1),
+th:nth-child(1) {
+  color: #000;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.blogs-desc h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 15px 0 6px 0 !important;
+  display: block;
+}
+
+.blogs-desc p {
+  margin: 0 0 31px 0 !important;
+}
+
+ol {
+  font-weight: bold;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+/* Style the nested unordered list inside the ordered list */
+ol>li>ul {
+  font-weight: normal;
+  margin-left: 20px;
+  list-style-type: disc !important;
+  /* Adding a disc style to ul */
+}
+
+/* Ensure the next level of nesting for ul inside li is further indented */
+ol>li>ul>li {
+
+  list-style-type: circle !important;
+  /* You can change the style here, e.g., circle, square, etc. */
+}
+#lineChart {
+  width: 800px;  /* Set width */
+  height: 500px; /* Set height for both desktop and mobile */
+}
+.blog-img{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
